@@ -33,6 +33,20 @@ public class linklist {
 		head=node;
 	}
 	
+	public void addatmiddle(int index, int data) {
+		Node node=new Node();
+		node.data=data;
+		node.next=null;
+		Node n=head;
+		for(int i=0;i<index-1;i++) {
+				n = n.next;
+		}
+		node.next=n.next;
+		n.next = node;
+		
+		
+	}
+	
 	
 
 }

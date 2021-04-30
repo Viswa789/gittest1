@@ -13,14 +13,14 @@ public class checkmain {
 		k.inst(432);
 		k.inst(456);
 		k.inst(478);
-		
 		k.display();
 		
 		k.addatfirst(0);
-		
 		k.display();
 		
-
+		k.addatmiddle(5, 88888);
+		k.display();
+		
 	}
 
 }
