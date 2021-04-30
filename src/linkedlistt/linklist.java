@@ -26,6 +26,13 @@ public class linklist {
 		System.out.println(n.data);
 	}
 	
+	public void addatfirst(int data) {
+		Node node=new Node();
+		node.data=data;
+		node.next=head;
+		head=node;
+	}
+	
 	
 
 }

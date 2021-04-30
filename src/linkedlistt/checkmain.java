@@ -16,6 +16,10 @@ public class checkmain {
 		
 		k.display();
 		
+		k.addatfirst(0);
+		
+		k.display();
+		
 
 	}
 
