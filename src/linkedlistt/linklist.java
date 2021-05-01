@@ -47,6 +47,48 @@ public class linklist {
 		
 	}
 	
+	public void delete(int index) {
+		System.out.println("\n\n");
+		Node n=head;
+		if(index==0) {
+			head=n.next;
+		}else {
+		
+		
+		for(int i=0;i<index;i++) {
+			
+			n=n.next;
+		}
+		
+		Node m=head;
+		for(int i=0;i<index-1;i++) {
+			
+			m=m.next;
+		}
+		m.next = n.next;
+		n.next=null;
+		}
+		
+		
+	}
+				//OR
+	
+	public void delete1(int index) {
+		Node n=head;
+		
+		if(index==0) {
+			head = n.next;
+		}else {
+		
+		for(int i=0;i<index-1;i++) {
+			n=n.next;
+		}
+		Node n1;
+		n1=n.next;
+		n.next = n1.next;
+		
+	}	}
+
 	
 
 }
