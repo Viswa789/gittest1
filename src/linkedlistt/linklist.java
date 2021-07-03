@@ -15,6 +15,7 @@ public class linklist {
 					n=n.next;
 				}
 				n.next = node;
+				System.out.println(node);
 		}
 	}
 	public void display() {
